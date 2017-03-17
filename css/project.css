@@ -1,0 +1,69 @@
+body {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+td {
+  border-top: none !important;
+  vertical-align: middle !important;
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+.form-group label {
+  margin-bottom: 0.1rem;
+}
+
+
+@media (min-width: 48em) {
+  .container {
+    max-width: 46rem;
+  }
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+input[id$="-input"] {
+  height: 50px;
+  padding-left: 60px;
+  font-size: 1.5rem;
+  width: 220px;
+}
+
+#relic-scroll-input {
+  background: url("../img/relic.png") no-repeat left;
+}
+#relic-input {
+  background: url("../img/ancient.png") no-repeat left;
+}
+#metal-armor-fragment-input {
+  background: url("../img/metalarmorfragment.png") no-repeat left;
+}
+#huge-spear-input {
+  background: url("../img/hugespear.png") no-repeat left;
+}
+#red-orc-fang-input {
+  background: url("../img/redorcfang.png") no-repeat left;
+}
+#red-orc-nose-ring-input {
+  background: url("../img/redorcnosering.png") no-repeat left;
+}
+#memory-input {
+  background: url("../img/memory.png") no-repeat left;
+}
+#seal-input {
+  background: url("../img/seal.png") no-repeat left;
+}
+#armor-input {
+  background: url("../img/armor.png") no-repeat left;
+}
+#weapon-input {
+  background: url("../img/weapon.png") no-repeat left;
+}
+#silver-input {
+  background: url("../img/silver.png") no-repeat left;
+}
