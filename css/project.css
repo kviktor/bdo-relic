@@ -19,7 +19,7 @@ td {
 
 @media (min-width: 48em) {
   .container {
-    max-width: 46rem;
+    max-width: 50rem;
   }
 }
 
@@ -31,7 +31,7 @@ input[id$="-input"] {
   height: 50px;
   padding-left: 60px;
   font-size: 1.5rem;
-  width: 220px;
+  max-width: 220px;
 }
 
 #relic-scroll-input {
@@ -52,7 +52,7 @@ input[id$="-input"] {
 #red-orc-nose-ring-input {
   background: url("../img/redorcnosering.png") no-repeat left;
 }
-#memory-input {
+#memory-input, #memory-price-input {
   background: url("../img/memory.png") no-repeat left;
 }
 #seal-input {

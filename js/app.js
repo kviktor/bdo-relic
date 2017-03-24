@@ -10,12 +10,13 @@ app.controller('relicCtrl', function($scope, $http) {
   $scope.hugeSpear = 80;
   $scope.silver = 1100000;
   $scope.relic = 750000;
+  $scope.memoryPrice = 750000;
   $scope.armor = 160000;
   $scope.weapon = 170000;
   $scope.vp = true;
 
   $scope.memoryIncome = function() {
-    return $scope.memory * 750000 * ($scope.vp ? 0.845 : 0.65);
+    return $scope.memory * $scope.memoryPrice * ($scope.vp ? 0.845 : 0.65);
   };
 
   $scope.armorOrWeapon = function() {
