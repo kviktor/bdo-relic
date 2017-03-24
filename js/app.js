@@ -4,15 +4,15 @@ app.controller('relicCtrl', function($scope, $http) {
   $scope.scroll = 10;
   $scope.memory = 72;
   $scope.seal = 110;
-  $scope.metalArmor = 50;
-  $scope.redOrcFang = 60;
-  $scope.redOrcNose = 70;
-  $scope.hugeSpear = 80;
+  $scope.metalArmor = 500;
+  $scope.redOrcFang = 460;
+  $scope.redOrcNose = 465;
+  $scope.hugeSpear = 300;
   $scope.silver = 1100000;
   $scope.relic = 750000;
   $scope.memoryPrice = 750000;
-  $scope.armor = 160000;
-  $scope.weapon = 170000;
+  $scope.armor = 170000;
+  $scope.weapon = 210000;
   $scope.vp = true;
 
   $scope.memoryIncome = function() {
