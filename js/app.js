@@ -9,10 +9,10 @@ app.controller('relicCtrl', function($scope, $http) {
   $scope.redOrcNose = 465;
   $scope.hugeSpear = 300;
   $scope.silver = 1100000;
-  $scope.relic = 750000;
-  $scope.memoryPrice = 750000;
-  $scope.armor = 170000;
-  $scope.weapon = 210000;
+  $scope.relic = 1000000;
+  $scope.memoryPrice = 1600000;
+  $scope.armor = 201000;
+  $scope.weapon = 180000;
   $scope.vp = true;
 
   $scope.memoryIncome = function() {

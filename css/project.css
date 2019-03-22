@@ -34,6 +34,18 @@ input[id$="-input"] {
   max-width: 220px;
 }
 
+.table {
+  margin-bottom: 0.8rem;
+}
+
+.table td {
+  padding: 0.65rem;
+}
+
+.spacer {
+  height: 1.3rem;
+}
+
 #relic-scroll-input {
   background: url("../img/relic.png") no-repeat left;
 }
